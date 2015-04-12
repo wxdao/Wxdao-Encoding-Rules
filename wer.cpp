@@ -2,8 +2,10 @@
 #include <typeinfo>
 #include "wer.h"
 
+#ifdef DEBUG
 #include <iostream>
 #define DEBUG(x) std::cerr << x << std::endl;
+#endif
 
 using namespace wer;
 using namespace std;
